@@ -1,0 +1,7 @@
+<a
+  class="btn btn-primary"
+  (click)="isSharon = !isSharon"
+  [routerLink]="isSharon ? ['sharon'] : ['bob']"
+  >Toggle Components</a
+>
+<router-outlet></router-outlet>
